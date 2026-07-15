@@ -69,29 +69,69 @@ O projeto reúne autenticação de usuários, gerenciamento de coleção, abertu
 
 # 🖼️ Screenshots
 
-## Tela Inicial
+## Tela inicial
 
-![Tela Inicial](screenshots/tela inicial.png)
-
----
-
-## Coleção
-
-![Collection](./screenshots/collection.png)
+![Tela inicial](./screenshots/tela%20inicial.png)
 
 ---
 
-## Batalha
+## Coleção de cartas
 
-![Battle](./screenshots/battle.png)
+![Coleção de cartas](./screenshots/cartas%20totais.png)
+
+---
+
+## Criação de deck
+
+![Criação de deck](./screenshots/cria%C3%A7%C3%A3o%20de%20deck.png)
 
 ---
 
-## Loja
+## Campo de batalha
 
-![Shop](./screenshots/shop.png)
+![Campo de batalha](./screenshots/campo%20de%20batalha.png)
 
 ---
+
+## Tela de batalha
+
+![Tela de batalha](./screenshots/tela%20de%20batalha.png)
+
+---
+
+## Loja de heróis
+
+![Loja de heróis](./screenshots/loja%20de%20herois.png)
+
+---
+
+## Boosters disponíveis
+
+![Boosters disponíveis](./screenshots/booster%20disponiveis.png)
+
+---
+
+## Booster Ordem Templária
+
+![Booster Ordem Templária](./screenshots/booster%20ordem%20templaria.png)
+
+---
+
+## Booster Ganância
+
+![Booster Ganância](./screenshots/booster%20ganancia.png)
+
+---
+
+## Booster Luxúria
+
+![Booster Luxúria](./screenshots/booster%20luxuria.png)
+
+---
+
+## Booster Sombras do Espelho
+
+![Booster Sombras do Espelho](./screenshots/booster%20sombras%20do%20espelho.png)
 
 # 🛠 Tecnologias
 
