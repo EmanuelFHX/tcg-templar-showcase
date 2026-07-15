@@ -11,7 +11,7 @@
 
 ## 🌐 Acesse o projeto
 
-🔗 **https://SEU-LINK-DA-VERCEL.vercel.app**
+🔗 **https://tcg-templar.vercel.app/**
 
 ---
 
