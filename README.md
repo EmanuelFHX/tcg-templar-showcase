@@ -18,6 +18,7 @@
 # 📖 Sobre
 
 TCG Templars é um projeto pessoal desenvolvido com o objetivo de criar uma experiência completa de um jogo de cartas online.
+O login é baseado no cadastro da TemplarsChoice: https://templarchoice.vercel.app/
 
 O projeto reúne autenticação de usuários, gerenciamento de coleção, abertura de pacotes, heróis, sistema de experiência e batalhas, servindo também como um laboratório para explorar arquiteturas modernas utilizando React, Supabase e Vercel.
 
