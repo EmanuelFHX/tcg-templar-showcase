@@ -71,7 +71,7 @@ O projeto reúne autenticação de usuários, gerenciamento de coleção, abertu
 
 ## Tela Inicial
 
-![Home](./screenshots/telainicial.png)
+![Tela Inicial](screenshots/tela inicial.png)
 
 ---
 
