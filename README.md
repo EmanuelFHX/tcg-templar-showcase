@@ -246,11 +246,11 @@ O projeto continua em desenvolvimento e novas funcionalidades são adicionadas c
 
 # 👨‍💻 Autor
 
-**Emanuel Saga**
+**Emanuel Penna**
 
-- LinkedIn
+- www.linkedin.com/in/emanuel-penna
 - GitHub
-- Portfólio
+- https://portfolio-emanuel-penna.vercel.app/
 
 ---
 
