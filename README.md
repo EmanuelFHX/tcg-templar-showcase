@@ -249,7 +249,7 @@ O projeto continua em desenvolvimento e novas funcionalidades são adicionadas c
 **Emanuel Penna**
 
 - www.linkedin.com/in/emanuel-penna
-- GitHub
+- https://github.com/EmanuelFHX
 - https://portfolio-emanuel-penna.vercel.app/
 
 ---
