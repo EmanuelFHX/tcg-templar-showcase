@@ -1,4 +1,4 @@
-# ⚔️ TCG Templars
+# ⚔️ TCG Templar
 
 > Um jogo de cartas colecionáveis (Trading Card Game) desenvolvido para web, inspirado em mecânicas estratégicas de jogos de cartas, com sistema de progressão, coleções, heróis e batalhas.
 
