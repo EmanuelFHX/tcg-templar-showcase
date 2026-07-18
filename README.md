@@ -15,6 +15,7 @@
 - 🔐 **Cadastro pela TemplarChoice:** https://templarchoice.vercel.app/
 
 > Para entrar no jogo, é necessário possuir uma conta cadastrada na TemplarChoice.
+> Para melhor experiência clique nas opções do navegador usado e adicione o joga para a Tela Incial.
 
 ---
 
