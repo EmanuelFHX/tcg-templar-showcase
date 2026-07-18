@@ -1,6 +1,6 @@
 # ⚔️ TCG Templar
 
-> Um jogo de cartas colecionáveis (Trading Card Game) desenvolvido para web, inspirado em mecânicas estratégicas de jogos de cartas, com sistema de progressão, coleções, heróis e batalhas.
+> Um jogo de cartas colecionáveis para web, com abertura de pacotes, coleção, criação de decks, heróis, batalhas e troca de cartas entre jogadores.
 
 ![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-orange)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
@@ -11,91 +11,128 @@
 
 ## 🌐 Acesse o projeto
 
-🔗 **https://tcg-templar.vercel.app/**
+- 🎮 **TCG Templar:** https://tcg-templar.vercel.app/
+- 🔐 **Cadastro pela TemplarChoice:** https://templarchoice.vercel.app/
+
+> Para entrar no jogo, é necessário possuir uma conta cadastrada na TemplarChoice.
 
 ---
 
-# 📖 Sobre
+## 📖 Sobre o projeto
 
-TCG Templars é um projeto pessoal desenvolvido com o objetivo de criar uma experiência completa de um jogo de cartas online.
-Para fazer login é necessário um cadastro na TemplarChoice: https://templarchoice.vercel.app/
+O **TCG Templar** é um projeto pessoal desenvolvido para criar uma experiência completa de jogo de cartas colecionáveis no navegador.
 
-O projeto reúne autenticação de usuários, gerenciamento de coleção, abertura de pacotes, heróis, sistema de experiência e batalhas, servindo também como um laboratório para explorar arquiteturas modernas utilizando React, Supabase e Vercel.
+O jogador pode abrir pacotes temáticos, aumentar sua coleção, montar decks, desbloquear heróis, disputar batalhas e trocar cartas com outros jogadores.
+
+O projeto também funciona como um laboratório prático para autenticação, banco de dados, gerenciamento de estado, regras de jogo e integração entre aplicações utilizando React, Supabase e Vercel.
+
+A interface foi recentemente redesenhada para oferecer uma experiência mais moderna, minimalista, organizada e confortável tanto no desktop quanto no mobile.
 
 ---
 
 # ✨ Funcionalidades
 
-## 👤 Conta
+## 👤 Conta e perfil
 
-- Cadastro
-- Login
+- Login integrado à TemplarChoice
 - Persistência de sessão
 - Perfil do jogador
+- Sistema de experiência e níveis
+- Lista de amizades
 
-## 🎴 Cartas
+## 🎴 Cartas e coleção
 
-- Coleção de cartas
+- Coleção completa de cartas
 - Diferentes raridades
-- Visualização detalhada
-- Sistema de pacotes
+- Visualização detalhada das cartas
+- Identificação de cartas bloqueadas
+- Organização visual da coleção
 
 ## 🎁 Pacotes
 
+- Seleção de pacotes temáticos
 - Abertura animada
 - Pacotes gratuitos diários
 - Probabilidades de raridade
+- Exibição das cartas recebidas
 
-## ⚔️ Batalhas
+## 🧩 Construção de decks
 
-- Batalhas contra CPU
-- Sistema de energia
-- Turnos
-- Estratégia baseada em cartas
-
-## ⭐ Progressão
-
-- Sistema de XP
-- Níveis
-- Evolução do jogador
+- Criação e edição de decks
+- Seleção de cartas da coleção
+- Visualização das cartas adicionadas
+- Seleção de deck antes da batalha
+- Seleção de herói para cada deck
 
 ## 🦸 Heróis
 
 - Loja de heróis
-- Seleção de herói
-- Sistema de desbloqueio
+- Compra e desbloqueio
+- Seleção de herói para o deck
+
+## ⚔️ Batalhas
+
+- Batalhas contra CPU
+- Seleção de modos de jogo
+- Sistema de energia por turno
+- Campo de batalha interativo
+- Estratégia baseada em cartas, heróis e composição de deck
+
+## 🔄 Troca de cartas
+
+- Tela exclusiva para trocas
+- Seleção das cartas oferecidas
+- Seleção das cartas solicitadas
+- Envio de propostas para outros jogadores
+- Acompanhamento de trocas pendentes
+- Aceitação ou recusa de propostas
+- Notificações sobre o status das trocas
 
 ---
 
-# 🖼️ Screenshots
+# 🖼️ Novo visual
+
+## Login
+
+![Tela de login](./screenshots/tela%20de%20login.png)
+
+---
 
 ## Tela inicial
 
-![Tela inicial](./screenshots/tela%20inicial.png)
+![Tela inicial](./screenshots/tela%20inicial%201.png)
+
+![Continuação da tela inicial](./screenshots/tela%20inicial%202.png)
+
+---
+
+## Seleção de pacotes
+
+![Seleção de booster](./screenshots/sele%C3%A7%C3%A3o%20de%20booster.png)
+
+---
+
+## Abertura de pacote
+
+![Cartas recebidas ao abrir o pacote](./screenshots/cartas%20ao%20abrir%20o%20pacote.png)
 
 ---
 
 ## Coleção de cartas
 
-![Coleção de cartas](./screenshots/cartas%20totais.png)
+![Coleção de cartas](./screenshots/cole%C3%A7%C3%A3o%20das%20cartas.png)
 
 ---
 
-## Criação de deck
+## Construção de deck
 
-![Criação de deck](./screenshots/cria%C3%A7%C3%A3o%20de%20deck.png)
-
----
-
-## Campo de batalha
-
-![Campo de batalha](./screenshots/campo%20de%20batalha.png)
+![Construção do deck](./screenshots/constru%C3%A7%C3%A3o%20do%20deck.png)
 
 ---
 
-## Tela de batalha
+## Seleção de deck
 
-![Tela de batalha](./screenshots/tela%20de%20batalha.png)
+![Seleção de deck](./screenshots/sele%C3%A7%C3%A3o%20de%20deck.png)
 
 ---
 
@@ -105,53 +142,44 @@ O projeto reúne autenticação de usuários, gerenciamento de coleção, abertu
 
 ---
 
-## Boosters disponíveis
+## Modos de batalha
 
-![Boosters disponíveis](./screenshots/booster%20disponiveis.png)
-
----
-
-## Booster Ordem Templária
-
-![Booster Ordem Templária](./screenshots/booster%20ordem%20templaria.png)
+![Seleção de modo de batalha](./screenshots/sele%C3%A7%C3%A3o%20de%20modo%20de%20batalha.png)
 
 ---
 
-## Booster Ganância
+## Campo de batalha
 
-![Booster Ganância](./screenshots/booster%20ganancia.png)
-
----
-
-## Booster Luxúria
-
-![Booster Luxúria](./screenshots/booster%20luxuria.png)
+![Campo de batalha](./screenshots/campo%20de%20batalha.png)
 
 ---
 
-## Booster Sombras do Espelho
+## Troca de cartas
 
-![Booster Sombras do Espelho](./screenshots/booster%20sombras%20do%20espelho.png)
+![Troca de cartas](./screenshots/troca%20de%20cartas.png)
+
+---
 
 # 🛠 Tecnologias
 
-### Front-end
+## Front-end
 
 - React
 - JavaScript
 - CSS
 - Vite
 
-### Back-end
+## Back-end e banco de dados
 
 - Supabase
 - PostgreSQL
+- Supabase Auth
 
-### Deploy
+## Deploy
 
 - Vercel
 
-### Ferramentas
+## Ferramentas
 
 - Git
 - GitHub
@@ -162,30 +190,17 @@ O projeto reúne autenticação de usuários, gerenciamento de coleção, abertu
 
 # 🏗 Arquitetura
 
-```
+```text
 Usuário
-    │
-React
-    │
-Supabase Auth
-    │
-PostgreSQL
-```
-
----
-
-# 📂 Estrutura do Projeto
-
-```
-src/
- ├── components
- ├── pages
- ├── contexts
- ├── hooks
- ├── services
- ├── assets
- ├── styles
- └── utils
+   │
+   ├── TemplarChoice
+   │      └── Cadastro e autenticação
+   │
+   └── TCG Templar
+          ├── React
+          ├── Supabase Auth
+          ├── PostgreSQL
+          └── Vercel
 ```
 
 ---
@@ -194,53 +209,64 @@ src/
 
 ## ✅ Concluído
 
-- Sistema de autenticação
-- Coleção de cartas
-- Pacotes
-- Perfil
-- Loja de heróis
-- Sistema de XP
-- Deploy
+- [x] Sistema de autenticação
+- [x] Perfil do jogador
+- [x] Sistema de experiência e níveis
+- [x] Abertura de pacotes
+- [x] Coleção de cartas
+- [x] Construção de decks
+- [x] Loja e seleção de heróis
+- [x] Batalhas contra CPU
+- [x] Sistema de energia por turno
+- [x] Sistema de amizades
+- [x] Troca de cartas entre jogadores
+- [x] Notificações de trocas
+- [x] Redesign das principais telas
+- [x] Melhorias no layout mobile
+- [x] Deploy na Vercel
 
 ## 🚧 Em desenvolvimento
 
-- Estatísticas
-- Melhorias na IA
-- Animações
-- Interface aprimorada
+- [ ] Melhorias no balanceamento das cartas
+- [ ] Aprimoramentos na inteligência da CPU
+- [ ] Novas animações e efeitos visuais
+- [ ] Estatísticas do jogador
+- [ ] Histórico de batalhas
+- [ ] Novas coleções, cartas e heróis
 
 ## 🔮 Futuro
 
-- PvP Online
-- Ranking
-- Matchmaking
-- Conquistas
-- Missões
-- Mercado
-- Guildas
-- Eventos
-- Aplicativo Mobile
+- [ ] PvP online
+- [ ] Matchmaking
+- [ ] Sistema de ranking
+- [ ] Temporadas e recompensas
+- [ ] Missões diárias e semanais
+- [ ] Conquistas
+- [ ] Eventos especiais
+- [ ] Guildas
+- [ ] Aplicativo mobile ou PWA
 
 ---
 
-# 🎯 Objetivos
+# 🎯 Objetivos técnicos
 
 Este projeto foi criado para praticar e consolidar conhecimentos em:
 
-- Arquitetura Front-end
+- Arquitetura front-end
 - Gerenciamento de estado
-- Banco de dados
-- Autenticação
-- Consumo de APIs
-- Deploy
-- Organização de código
-- Desenvolvimento de aplicações escaláveis
+- Autenticação entre aplicações
+- Modelagem e persistência de dados
+- Regras e lógica de jogos
+- Controle de inventário e coleção
+- Sistemas de troca entre usuários
+- Responsividade e experiência mobile
+- Deploy e manutenção de aplicações web
 
 ---
 
 # 📈 Status
 
-O projeto continua em desenvolvimento e novas funcionalidades são adicionadas continuamente.
+O **TCG Templar** continua em desenvolvimento. Novas funcionalidades, cartas, melhorias visuais e ajustes de balanceamento são adicionados progressivamente.
 
 ---
 
@@ -248,12 +274,14 @@ O projeto continua em desenvolvimento e novas funcionalidades são adicionadas c
 
 **Emanuel Penna**
 
-- www.linkedin.com/in/emanuel-penna
-- https://github.com/EmanuelFHX
-- https://portfolio-emanuel-penna.vercel.app/
+- [LinkedIn](https://www.linkedin.com/in/emanuel-penna)
+- [GitHub](https://github.com/EmanuelFHX)
+- [Portfólio](https://portfolio-emanuel-penna.vercel.app/)
 
 ---
 
-# 📄 Licença
+# 📄 Aviso
 
-Este repositório tem fins educacionais e de portfólio.
+Este repositório é destinado à apresentação pública e ao portfólio do projeto.
+
+O código-fonte principal do **TCG Templar** permanece privado.
